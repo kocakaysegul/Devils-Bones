@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D85E5E3F2995051600A78C0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E5E3E2995051600A78C0B /* AppDelegate.swift */; };
+		D85E5E412995051600A78C0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E5E402995051600A78C0B /* SceneDelegate.swift */; };
+		D85E5E432995051600A78C0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E5E422995051600A78C0B /* ViewController.swift */; };
+		D85E5E462995051600A78C0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85E5E442995051600A78C0B /* Main.storyboard */; };
+		D85E5E482995051600A78C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85E5E472995051600A78C0B /* Assets.xcassets */; };
+		D85E5E4B2995051600A78C0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85E5E492995051600A78C0B /* LaunchScreen.storyboard */; };
+		D85E5E562995051700A78C0B /* Devils_BonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E5E552995051700A78C0B /* Devils_BonesTests.swift */; };
+		D85E5E602995051700A78C0B /* Devils_BonesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E5E5F2995051700A78C0B /* Devils_BonesUITests.swift */; };
+		D85E5E622995051700A78C0B /* Devils_BonesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E5E612995051700A78C0B /* Devils_BonesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D85E5E522995051700A78C0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85E5E332995051600A78C0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85E5E3A2995051600A78C0B;
+			remoteInfo = "Devils-Bones";
+		};
+		D85E5E5C2995051700A78C0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85E5E332995051600A78C0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85E5E3A2995051600A78C0B;
+			remoteInfo = "Devils-Bones";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D85E5E3B2995051600A78C0B /* Devils-Bones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Devils-Bones.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85E5E3E2995051600A78C0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D85E5E402995051600A78C0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D85E5E422995051600A78C0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D85E5E452995051600A78C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D85E5E472995051600A78C0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D85E5E4A2995051600A78C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D85E5E4C2995051600A78C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85E5E512995051700A78C0B /* Devils-BonesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Devils-BonesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85E5E552995051700A78C0B /* Devils_BonesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devils_BonesTests.swift; sourceTree = "<group>"; };
+		D85E5E5B2995051700A78C0B /* Devils-BonesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Devils-BonesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85E5E5F2995051700A78C0B /* Devils_BonesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devils_BonesUITests.swift; sourceTree = "<group>"; };
+		D85E5E612995051700A78C0B /* Devils_BonesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devils_BonesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D85E5E382995051600A78C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85E5E4E2995051700A78C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85E5E582995051700A78C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D85E5E322995051600A78C0B = {
+			isa = PBXGroup;
+			children = (
+				D85E5E3D2995051600A78C0B /* Devils-Bones */,
+				D85E5E542995051700A78C0B /* Devils-BonesTests */,
+				D85E5E5E2995051700A78C0B /* Devils-BonesUITests */,
+				D85E5E3C2995051600A78C0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D85E5E3C2995051600A78C0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D85E5E3B2995051600A78C0B /* Devils-Bones.app */,
+				D85E5E512995051700A78C0B /* Devils-BonesTests.xctest */,
+				D85E5E5B2995051700A78C0B /* Devils-BonesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D85E5E3D2995051600A78C0B /* Devils-Bones */ = {
+			isa = PBXGroup;
+			children = (
+				D85E5E3E2995051600A78C0B /* AppDelegate.swift */,
+				D85E5E402995051600A78C0B /* SceneDelegate.swift */,
+				D85E5E422995051600A78C0B /* ViewController.swift */,
+				D85E5E442995051600A78C0B /* Main.storyboard */,
+				D85E5E472995051600A78C0B /* Assets.xcassets */,
+				D85E5E492995051600A78C0B /* LaunchScreen.storyboard */,
+				D85E5E4C2995051600A78C0B /* Info.plist */,
+			);
+			path = "Devils-Bones";
+			sourceTree = "<group>";
+		};
+		D85E5E542995051700A78C0B /* Devils-BonesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D85E5E552995051700A78C0B /* Devils_BonesTests.swift */,
+			);
+			path = "Devils-BonesTests";
+			sourceTree = "<group>";
+		};
+		D85E5E5E2995051700A78C0B /* Devils-BonesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D85E5E5F2995051700A78C0B /* Devils_BonesUITests.swift */,
+				D85E5E612995051700A78C0B /* Devils_BonesUITestsLaunchTests.swift */,
+			);
+			path = "Devils-BonesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D85E5E3A2995051600A78C0B /* Devils-Bones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85E5E652995051700A78C0B /* Build configuration list for PBXNativeTarget "Devils-Bones" */;
+			buildPhases = (
+				D85E5E372995051600A78C0B /* Sources */,
+				D85E5E382995051600A78C0B /* Frameworks */,
+				D85E5E392995051600A78C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Devils-Bones";
+			productName = "Devils-Bones";
+			productReference = D85E5E3B2995051600A78C0B /* Devils-Bones.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D85E5E502995051700A78C0B /* Devils-BonesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85E5E682995051700A78C0B /* Build configuration list for PBXNativeTarget "Devils-BonesTests" */;
+			buildPhases = (
+				D85E5E4D2995051700A78C0B /* Sources */,
+				D85E5E4E2995051700A78C0B /* Frameworks */,
+				D85E5E4F2995051700A78C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85E5E532995051700A78C0B /* PBXTargetDependency */,
+			);
+			name = "Devils-BonesTests";
+			productName = "Devils-BonesTests";
+			productReference = D85E5E512995051700A78C0B /* Devils-BonesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D85E5E5A2995051700A78C0B /* Devils-BonesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85E5E6B2995051700A78C0B /* Build configuration list for PBXNativeTarget "Devils-BonesUITests" */;
+			buildPhases = (
+				D85E5E572995051700A78C0B /* Sources */,
+				D85E5E582995051700A78C0B /* Frameworks */,
+				D85E5E592995051700A78C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85E5E5D2995051700A78C0B /* PBXTargetDependency */,
+			);
+			name = "Devils-BonesUITests";
+			productName = "Devils-BonesUITests";
+			productReference = D85E5E5B2995051700A78C0B /* Devils-BonesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D85E5E332995051600A78C0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D85E5E3A2995051600A78C0B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D85E5E502995051700A78C0B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D85E5E3A2995051600A78C0B;
+					};
+					D85E5E5A2995051700A78C0B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D85E5E3A2995051600A78C0B;
+					};
+				};
+			};
+			buildConfigurationList = D85E5E362995051600A78C0B /* Build configuration list for PBXProject "Devils-Bones" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D85E5E322995051600A78C0B;
+			productRefGroup = D85E5E3C2995051600A78C0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D85E5E3A2995051600A78C0B /* Devils-Bones */,
+				D85E5E502995051700A78C0B /* Devils-BonesTests */,
+				D85E5E5A2995051700A78C0B /* Devils-BonesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D85E5E392995051600A78C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85E5E4B2995051600A78C0B /* LaunchScreen.storyboard in Resources */,
+				D85E5E482995051600A78C0B /* Assets.xcassets in Resources */,
+				D85E5E462995051600A78C0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85E5E4F2995051700A78C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85E5E592995051700A78C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D85E5E372995051600A78C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85E5E432995051600A78C0B /* ViewController.swift in Sources */,
+				D85E5E3F2995051600A78C0B /* AppDelegate.swift in Sources */,
+				D85E5E412995051600A78C0B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85E5E4D2995051700A78C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85E5E562995051700A78C0B /* Devils_BonesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85E5E572995051700A78C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85E5E602995051700A78C0B /* Devils_BonesUITests.swift in Sources */,
+				D85E5E622995051700A78C0B /* Devils_BonesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D85E5E532995051700A78C0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85E5E3A2995051600A78C0B /* Devils-Bones */;
+			targetProxy = D85E5E522995051700A78C0B /* PBXContainerItemProxy */;
+		};
+		D85E5E5D2995051700A78C0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85E5E3A2995051600A78C0B /* Devils-Bones */;
+			targetProxy = D85E5E5C2995051700A78C0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D85E5E442995051600A78C0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85E5E452995051600A78C0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D85E5E492995051600A78C0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85E5E4A2995051600A78C0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D85E5E632995051700A78C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D85E5E642995051700A78C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D85E5E662995051700A78C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V8RYTN3WC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Devils-Bones/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kocakaysegul.Devils-Bones";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D85E5E672995051700A78C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V8RYTN3WC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Devils-Bones/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kocakaysegul.Devils-Bones";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D85E5E692995051700A78C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V8RYTN3WC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kocakaysegul.Devils-BonesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Devils-Bones.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Devils-Bones";
+			};
+			name = Debug;
+		};
+		D85E5E6A2995051700A78C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V8RYTN3WC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kocakaysegul.Devils-BonesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Devils-Bones.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Devils-Bones";
+			};
+			name = Release;
+		};
+		D85E5E6C2995051700A78C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V8RYTN3WC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kocakaysegul.Devils-BonesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Devils-Bones";
+			};
+			name = Debug;
+		};
+		D85E5E6D2995051700A78C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V8RYTN3WC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kocakaysegul.Devils-BonesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Devils-Bones";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D85E5E362995051600A78C0B /* Build configuration list for PBXProject "Devils-Bones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85E5E632995051700A78C0B /* Debug */,
+				D85E5E642995051700A78C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85E5E652995051700A78C0B /* Build configuration list for PBXNativeTarget "Devils-Bones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85E5E662995051700A78C0B /* Debug */,
+				D85E5E672995051700A78C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85E5E682995051700A78C0B /* Build configuration list for PBXNativeTarget "Devils-BonesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85E5E692995051700A78C0B /* Debug */,
+				D85E5E6A2995051700A78C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85E5E6B2995051700A78C0B /* Build configuration list for PBXNativeTarget "Devils-BonesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85E5E6C2995051700A78C0B /* Debug */,
+				D85E5E6D2995051700A78C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D85E5E332995051600A78C0B /* Project object */;
+}
