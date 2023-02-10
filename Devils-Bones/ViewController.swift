@@ -15,8 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-    
+ 
     }
 
     @IBAction func rollButtonPressed(_ sender: UIButton) {
@@ -24,6 +23,8 @@ class ViewController: UIViewController {
         
         diceImageView1.image = diceArray[Int.random(in: 1...5)]
         diceImageView2.image = diceArray.randomElement()
+        //we can also use shuffled()
+        //diceImageView2.image = diceArray.shuffled()
     }
     
 }
