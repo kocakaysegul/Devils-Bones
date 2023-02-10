@@ -50,6 +50,10 @@
                             <constraint firstItem="9yB-X9-kc4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fbR-oV-If3"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="diceImageView1" destination="SDk-BC-PTN" id="YBY-mZ-fGp"/>
+                        <outlet property="diceImageView2" destination="U3V-ze-wWu" id="eLT-lj-AZ8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
